@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class StringSaverThread extends Thread {
-    ArrayList<String> messagesList;
+    private ArrayList<String> messagesList;
 
     public StringSaverThread(ArrayList<String> messagesList) {
         this.messagesList = messagesList;
